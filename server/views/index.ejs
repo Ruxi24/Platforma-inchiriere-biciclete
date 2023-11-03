@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="poza nu merge">
+        </div>
+
+         <div class="button">
+            <a href="">Categorie noua</a>
+            <a href="">buton 2</a>
+            <a href="">buton 3</a>
+        </div> 
+
+    </header> 
+    <ul>
+        <% data.categorii.map(bicicleta => { %>
+            <li>
+                nume: <%= bicicleta.nume %>,
+                numar: <%= bicicleta.numar %>
+            </li>   
+        <%} ) %>
+    </ul>
+
+    <div class="ultimele3P">
+        <h3> Ultimele 3 postari: </h3>
+    <div class="postari">
+        <div class="postare">
+            <div class="imagine">
+                <img src="images/bicicletaDeCurse.jpg" alt="nu merge poza">
+            </div>
+            <div class="continut">
+                <h3>Bicicleta de curse</h3>
+                <div class="descriere-bicicleta">
+                    <p> Daca merg pe sosea am nevoie clar de cursiera, fiind un tip de bicicleta destinata distantelor lungi, anvelope cu suprafata de contact foarte mica (rezistenta la inaintare mica), cu piese cat mai usoare, tot ansamblul e cat mai rigid, pozitia este una aerodinamica insa nu e tocmai relaxanta. </p>
+                </div>
+                <div class="tarife">
+                    <div>
+                        <p>4 ore</p> <p>50 lei</p>
+                    </div>
+                    <div>
+                        <p>1 zi</p> <p>100 lei</p>
+                    </div>
+                    <div>
+                        <p>2 zile</p> <p>150 lei</p>
+                    </div>
+                    <div>
+                        <p>3 zile</p> <p>200 lei</p>
+                    </div>
+                    <div>
+                        <p>mai mult de 3 zile</p> <p>80 lei/zi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="postare">
+            <div class="imagine">
+                <img src="images/bicicletaDeCurse.jpg" alt="nu merge poza">
+            </div>
+            <div class="continut">
+                <h3>Bicicleta de curse</h3>
+                <div class="descriere-bicicleta">
+                    <p> Daca merg pe sosea am nevoie clar de cursiera, fiind un tip de bicicleta destinata distantelor lungi, anvelope cu suprafata de contact foarte mica (rezistenta la inaintare mica), cu piese cat mai usoare, tot ansamblul e cat mai rigid, pozitia este una aerodinamica insa nu e tocmai relaxanta. </p>
+                </div>
+                <div class="tarife">
+                    <div>
+                        <p>4 ore</p> <p>50 lei</p>
+                    </div>
+                    <div>
+                        <p>1 zi</p> <p>100 lei</p>
+                    </div>
+                    <div>
+                        <p>2 zile</p> <p>150 lei</p>
+                    </div>
+                    <div>
+                        <p>3 zile</p> <p>200 lei</p>
+                    </div>
+                    <div>
+                        <p>mai mult de 3 zile</p> <p>80 lei/zi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="postare">
+            <div class="imagine">
+                <img src="images/bicicletaDeCurse.jpg" alt="nu merge poza">
+            </div>
+            <div class="continut">
+                <h3>Bicicleta de curse</h3>
+                <div class="descriere-bicicleta">
+                    <p> Daca merg pe sosea am nevoie clar de cursiera, fiind un tip de bicicleta destinata distantelor lungi, anvelope cu suprafata de contact foarte mica (rezistenta la inaintare mica), cu piese cat mai usoare, tot ansamblul e cat mai rigid, pozitia este una aerodinamica insa nu e tocmai relaxanta. </p>
+                </div>
+                <div class="tarife">
+                    <div>
+                        <p>4 ore</p> <p>50 lei</p>
+                    </div>
+                    <div>
+                        <p>1 zi</p> <p>100 lei</p>
+                    </div>
+                    <div>
+                        <p>2 zile</p> <p>150 lei</p>
+                    </div>
+                    <div>
+                        <p>3 zile</p> <p>200 lei</p>
+                    </div>
+                    <div>
+                        <p>mai mult de 3 zile</p> <p>80 lei/zi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
